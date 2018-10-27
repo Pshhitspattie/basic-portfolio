@@ -1,13 +1,37 @@
-.name{
-    color:pink;
-    text-align: center;
+h1 {
+    
+    background-color:teal;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
-.hello{
-    font-weight: bold;
+p {
+    color: #777777;
+    font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
-#cat{
-    color: purple;
+head {
+
+    background-color: #ffffff
+    border-color #cccccc
+    
+}
+
+footer {
+
+  background-color: #666666
+  
+}
+
+main {
+
+    background-color: #ffffff
+    border-color #dddddd
+    font-family Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(red, green, blue, alpha)
 }
