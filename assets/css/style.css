@@ -1,3 +1,10 @@
+
+
+body {
+    width: 960px;
+    
+}
+
 h1 {
     
     background-color:teal;
@@ -6,37 +13,74 @@ h1 {
 
 }
 
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 14px;
+
+}
+
+
+
+
+
+
+
+img {
+    float: left;
+}
+
 p {
     color: #777777;
     font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   
-
+    line-height 30px;
 }
 
 head {
-
     background-color: #ffffff
     border-color #cccccc
-    
 }
 
 footer {
-
-  background-color: #666666
+  background-color: #666666;
   
 }
 
 main {
 
-    background-color: #ffffff
-    border-color #dddddd
+    background-color: #ffffff;
+    border-color #dddddd;
     font-family Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
 }
 
-body {
+.body {
     background-color: rgba(red, green, blue, alpha)
+    
 }
 
-div.a {
+.container {
     font-size: large;
 }
+
+.content1 {
+
+    float: left;
+    
+
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+
+}
+
+
+    
