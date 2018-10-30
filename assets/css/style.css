@@ -7,6 +7,7 @@ body {
 
 img {
     float: left;
+    padding: 10px;
 }
 
 h2 {
@@ -17,7 +18,7 @@ h2 {
 }
 #container {
 
-    background-color: blueviolet;
+    background-image: url(../images/pipes.png);
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -30,15 +31,27 @@ h2 {
     height:60px ;
     background-color: #ffffff;
     border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  
+    
     
 }
+
+
 #header>h1{
 
 padding:10px;
 width:960;
 margin: 0px auto;
-color: #4aaaa5
+color: white
+background-color #4aaaa5
+
 }
+p {
+
+ line-height: 1.7 ;   
+}
+
 
 ul {
 
@@ -72,17 +85,20 @@ a:visited {text-decoration:none }
 a:active {text-decoration: none;}
 
 
+
+
 #content {
     width: 960px;
     padding: 10px;
-    background-color: pink;
+    
 
 }
 
 #main {
-
+height: 400px;
 width: 960px;  
-background-color: aquamarine;
+background-color: #ffffff;
+border-color: #dddddd;
 
 }
 
@@ -91,4 +107,5 @@ background-color: aquamarine;
 clear: both;
 background-color: #666666;
 text-align: center;
+padding: 10px;
 }
